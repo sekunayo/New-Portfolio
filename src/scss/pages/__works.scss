@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     @media (max-width: 700.98px) {
-      height: 100vh;
+      height: 80vh;
     }
 
     @media (min-width: 701px) and (max-width: 800.98px) {
@@ -70,6 +70,10 @@
       border-radius: 3px;
       padding: 14px 20px;
       cursor: pointer;
+      position: relative;
+      & p {
+        z-index: 4;
+      }
       @media (max-width: 700.98px) {
         height: 100px;
         width: 280px;
@@ -95,4 +99,9 @@
       }
     }
   }
+}
+.absolute-box-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

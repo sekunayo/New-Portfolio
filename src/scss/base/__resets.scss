@@ -26,6 +26,21 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
+  & svg {
+    @media (max-width: 700.98px) {
+      width: 164px;
+      height: 161px;
+    }
+    @media (min-width: 701px) and (max-width: 1399.98px) {
+      width: 284px;
+      height: 281px;
+    }
+
+    @media (min-width: 1400px) {
+      width: 284px;
+      height: 281px;
+    }
+  }
 }
 .nav-link {
   text-decoration: none;

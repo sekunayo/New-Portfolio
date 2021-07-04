@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "../../Components/Card/Card";
+
 function Works() {
   return (
     <div className="works">
@@ -6,35 +8,21 @@ function Works() {
         <div className="works-box">
           <h1 className="works-box-heading">My Works</h1>
           <div className="works-box-inner">
-            <a
-              href="https://e-commerce-website-rho.vercel.app/"
-              className="nav-link"
-            >
-              <div className="works-box-inner-box">
-                <p>E-Commerce Website</p>
-              </div>
-            </a>
-            <a
-              href="https://nggon-pbzn4xpu3-sekunayo.vercel.app/"
-              className="nav-link"
-            >
-              <div className="works-box-inner-box">
-                <p>Nggon Landing Page</p>
-              </div>
-            </a>
-            <a
-              href="https://sekunayo.github.io/tip-calculator/"
-              className="nav-link"
-            >
-              <div className="works-box-inner-box">
-                <p>Tip Tap Calculator</p>
-              </div>
-            </a>
+            <Card
+              heading="E-Commerce Website"
+              link="https://e-commerce-website-rho.vercel.app/"
+            />
+            <Card
+              heading="Nggon Landing Page"
+              link="https://nggon-pbzn4xpu3-sekunayo.vercel.app/"
+            />
+            <Card
+              heading="Tip Tap Calculator"
+              link="https://sekunayo.github.io/tip-calculator/"
+            />
           </div>
           <div className="absolute-svg">
             <svg
-              width="284"
-              height="281"
               viewBox="0 0 284 281"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
