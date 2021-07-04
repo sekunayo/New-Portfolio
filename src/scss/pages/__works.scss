@@ -46,7 +46,6 @@
     align-items: center;
     justify-self: center;
     align-self: center;
-    z-index: 2;
     @media (max-width: 700.98px) {
       flex-direction: column;
       height: 350px;
@@ -71,9 +70,10 @@
       padding: 14px 20px;
       cursor: pointer;
       position: relative;
-      & p {
-        z-index: 4;
-      }
+      z-index: 100;
+      // & p {
+      //   z-index: 1;
+      // }
       @media (max-width: 700.98px) {
         height: 100px;
         width: 280px;
@@ -104,4 +104,5 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
 }

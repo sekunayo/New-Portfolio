@@ -369,7 +369,6 @@ body {
   justify-self: center;
   -ms-flex-item-align: center;
       align-self: center;
-  z-index: 2;
 }
 
 @media (max-width: 700.98px) {
@@ -419,10 +418,7 @@ body {
   padding: 14px 20px;
   cursor: pointer;
   position: relative;
-}
-
-.works-box-inner-box p {
-  z-index: 4;
+  z-index: 100;
 }
 
 @media (max-width: 700.98px) {
@@ -466,4 +462,5 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
 }
