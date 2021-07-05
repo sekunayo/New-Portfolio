@@ -71,9 +71,12 @@
       cursor: pointer;
       position: relative;
       z-index: 100;
-      // & p {
-      //   z-index: 1;
-      // }
+      & p {
+        z-index: 1;
+        @media (max-width: 700.98px) {
+        width: 200px;
+      }
+      }
       @media (max-width: 700.98px) {
         height: 100px;
         width: 280px;

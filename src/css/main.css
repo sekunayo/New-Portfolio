@@ -421,6 +421,16 @@ body {
   z-index: 100;
 }
 
+.works-box-inner-box p {
+  z-index: 1;
+}
+
+@media (max-width: 700.98px) {
+  .works-box-inner-box p {
+    width: 200px;
+  }
+}
+
 @media (max-width: 700.98px) {
   .works-box-inner-box {
     height: 100px;
